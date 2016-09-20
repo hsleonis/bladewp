@@ -1,0 +1,47 @@
+/**
+ * @package BladeWP
+ * @author MD. Hasan Shahriar <info@themeaxe.com>
+ * Parse plain HTML data and converts to WP snippets
+ * Main stylesheet
+ * @since 1.0.1
+ */
+
+.container-padding{
+    padding: 0 50px;
+}
+.code-segment,
+.parsed-segment{
+    height:100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+#main-body{
+    margin-bottom: 50px;
+}
+#codeform{
+    margin-bottom: 5px;
+}
+.wpcode{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px 25px;
+    min-height: 450px;
+    max-width: 100%;
+    background: #FBFBFB;
+}
+pre[class*="language-php"]{
+    min-height:500px;
+    font-size: 12px !important;
+}
+nav {
+    background-color: #00bbe3;
+}
+footer.page-footer{
+    padding-top: 0;
+    background-color: #101010;
+}
+.info-list li {
+    list-style: inside square;
+}
+.progress{
+    display: none;
+}
